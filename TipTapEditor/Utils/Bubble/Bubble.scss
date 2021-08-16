@@ -1,0 +1,11 @@
+@import '~assets/styles/abstracts/index';
+
+.c-editor-inline-bubble {
+  background-color: transparent;
+
+  &__button {
+    padding: pad(4xsmall);
+    cursor: pointer;
+    font-size: $g-font-size-medium;
+  }
+}
